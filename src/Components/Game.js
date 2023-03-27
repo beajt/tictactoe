@@ -22,11 +22,13 @@ function Game () {
       if (move > 0) {
         description = 'Go to move #' + move;
       } else {
-        description = 'Go to game start';
+        description = 'Restart';
       }
       return (
         <li>
-          <button onClick={() => jumpTo(move)}>{description}</button>
+          <button className="buttonStyle" onClick={() => jumpTo(move)}>
+            {description}
+          </button>
         </li>
       );
     });

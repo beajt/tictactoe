@@ -2,13 +2,11 @@ import CalculateWinner from "./CalculateWinner";
 import Square from "./Square";
 
 function Board({xIsNext, squares, onPlay}) {
-  console.log('board', squares)
 
   function handleClick(i) {
     if (CalculateWinner(squares) || squares[i]) {
       return;
     }
-    console.log(squares)
     const nextSquares = squares.slice();
     if (xIsNext) {
       nextSquares[i] = "X";

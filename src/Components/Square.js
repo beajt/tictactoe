@@ -2,7 +2,7 @@ function Square({ value, onSquareClick }) {
   return (
     <>
       <button className="square" onClick={onSquareClick}>
-        {value}
+        <p>{value}</p>
       </button>
     </>
   );
