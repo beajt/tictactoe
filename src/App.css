@@ -285,6 +285,7 @@ ul {
 .game {
   display: flex;
 }
+
 .gameBoard {
   display: flex;
   flex-direction: column;
@@ -345,19 +346,16 @@ ul {
 
 /* MEDIA QUERIES */
 
-/* @media (max-width: 720px) {
+@media (max-width: 720px) {
   .game {
     flex-direction: column;
   }
   .gameInfo {
     margin: 0;
   }
-} */
+}
 
-@media (max-width: 500px) {
-  .game {
-    flex-direction: column;
-  }
+@media (max-width: 520px) {
   .gameBoard {
     width: 100vw;
     padding: 1rem;
@@ -366,28 +364,10 @@ ul {
     width: 100%
   }
   .square {
-    width: 33%
+    width: 30vw;
+    font-size: 5rem;
   }
-  /* h1 {
+    h1 {
     font-size: 3.5rem;
   }
-  .status {
-    font-size: 1.5rem;
-  }
-  .square {
-    font-size: 4rem;
-    height: 6rem;
-    width: 6rem;
-  } */
 }
-/* 
-@media (max-width: 325px) {
-  h1 {
-    font-size: 2.75rem;
-  }
-  .square {
-    font-size: 3.25rem;
-    height: 5rem;
-    width: 5rem;
-  }
-} */
