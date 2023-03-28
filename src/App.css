@@ -354,20 +354,12 @@ ul {
   }
 }
 
-@media (max-width: 515px) {
-  .status {
-    font-size: 1.5rem;
-  }
-  .square {
-    font-size: 5rem;
-    height: 7rem;
-    width: 7rem;
-  }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 520px) {
   h1 {
     font-size: 3.5rem;
+  }
+  .status {
+    font-size: 1.5rem;
   }
   .square {
     font-size: 4rem;
@@ -381,7 +373,7 @@ ul {
     font-size: 2.75rem;
   }
   .square {
-    font-size: 3.5rem;
+    font-size: 3.25rem;
     height: 5rem;
     width: 5rem;
   }
