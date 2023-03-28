@@ -233,7 +233,7 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 0;
   font-size: 4rem;
 }
 
@@ -284,7 +284,6 @@ ul {
 
 .game {
   display: flex;
-  padding-top: 20px;
 }
 .gameBoard {
   display: flex;
@@ -366,7 +365,7 @@ ul {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   h1 {
     font-size: 3.5rem;
   }
