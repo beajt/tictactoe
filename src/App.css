@@ -345,17 +345,30 @@ ul {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 720px) {
+/* @media (max-width: 720px) {
   .game {
     flex-direction: column;
   }
   .gameInfo {
     margin: 0;
   }
-}
+} */
 
-@media (max-width: 520px) {
-  h1 {
+@media (max-width: 500px) {
+  .game {
+    flex-direction: column;
+  }
+  .gameBoard {
+    width: 100vw;
+    padding: 1rem;
+  }
+  .boardRow {
+    width: 100%
+  }
+  .square {
+    width: 33%
+  }
+  /* h1 {
     font-size: 3.5rem;
   }
   .status {
@@ -365,9 +378,9 @@ ul {
     font-size: 4rem;
     height: 6rem;
     width: 6rem;
-  }
+  } */
 }
-
+/* 
 @media (max-width: 325px) {
   h1 {
     font-size: 2.75rem;
@@ -377,4 +390,4 @@ ul {
     height: 5rem;
     width: 5rem;
   }
-}
+} */
