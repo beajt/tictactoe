@@ -142,14 +142,22 @@ ul {
     padding: 1rem;
   }
   .boardRow {
-    width: 100%
+    width: 100%;
   }
   .square {
     width: 30vw;
     height: 30vw;
-    font-size: 1rem;
+    font-size: 4rem;
   }
-    h1 {
+  h1 {
     font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 720px) and (orientation: landscape) {
+  .square {
+    width: 30vw;
+    height: 30vw;
+    font-size: 4rem;
   }
 }
