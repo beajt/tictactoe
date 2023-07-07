@@ -2,8 +2,8 @@ function Virtual() {
   return (
     <div className="flexMain">
       <h2>Want to chat with someone today? (Virtual)</h2>
-      <h3>Name</h3>
-      <p>Number - 123-4567</p>
+      <h3>Strides</h3>
+      <p>N416-438-3697 ext. 0</p>
       <ul>
         <li>Monday: 2 PM – 8 PM</li>
         <li>Tuesday: 9:30 AM – 5 PM</li>
