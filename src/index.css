@@ -1,14 +1,14 @@
 :root {
-  --body_background: #cad2c5;
-  --body_color: #2f3e46;
-  --font_color: #2f3e46;
+  --body_background: #F5F7FA;
+  --body_color: #4E7AC7;
+  --font_color: #2B3648;
   transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] {
-  --body_background: #354f52;
-  --body_color: #cad2c5;
-  --font_color: #cad2c5;
+  --body_background: #2B3648;
+  --body_color: #4E7AC7;
+  --font_color: #F5F7FA;
   transition: all 0.3s ease-in-out;
 }
 
