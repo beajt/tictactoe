@@ -1,14 +1,18 @@
 import './App.css';
-import Header from './Header';
+import Header from './Components/Header';
 import DarkMode from './Components/DarkMode';
-import Game from './Components/Game';
+import Virtual from './Components/Virtual';
+import InPerson from './Components/InPerson';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <DarkMode />
-      <Game />
+        <div className='Main'>
+        <Virtual />
+        <InPerson />
+        </div>
     </div>
   );
 }
